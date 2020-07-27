@@ -1,10 +1,5 @@
 const arrayToChck = [1,2,3,4];
 
-const newArray = [];
-for (i = 0; i < 100000; i++) {
-	newArray[i] = i + 1;
-}
-
 const sortedArray = arrayToChck.sort((a, b) => a - b).filter(onlyUnique);
 
 const smallestPositiveNumber = (sortedArray) => {
